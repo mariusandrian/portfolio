@@ -1,0 +1,41 @@
+body {
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1b1e30, #2e3b42);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1b1e30, #2e3b42); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* Divs */
+.title {
+    margin: 20% 10%;
+    min-height: 40vh;
+}
+
+.title > h3 {
+    line-height: 80%;
+}
+
+.icon-container {
+    margin-top: 20px;
+}
+
+.card-deck {
+    margin-top: 25px;
+}
+
+/* Typography */
+h1 {
+    font-size: 110px;
+    color: ghostwhite;
+}
+
+h2 {
+    font-size: 70px;
+    color: ghostwhite;
+}
+h3 {
+    color:rgba(126, 188, 218, 0.5)
+}
+
+/* Icons */
+.title-logo {
+    width: 40px;
+}
