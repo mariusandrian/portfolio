@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #536976;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1b1e30, #2e3b42);  /* Chrome 10-25, Safari 5.1-6 */
@@ -38,4 +42,9 @@ h3 {
 /* Icons */
 .title-logo {
     width: 40px;
+}
+
+/* Footer */
+footer > p {
+    color: gray;
 }
